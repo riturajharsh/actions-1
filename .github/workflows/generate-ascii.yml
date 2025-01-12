@@ -10,12 +10,12 @@ jobs:
         - name: Checkout Repo
           uses: actions/checkout@v4
 
-        - name: List Repo Files
-          run: ls -lrta  
+        - name: List ascii Files
+          run: ls -l ascii-script.sh
 
         - name: Executing shell script
           run: |
-           chmod +x ascii-script.sh
+           sudo chmod +x ascii-script.sh
            ./ascii-script.sh
 
         # - name: Install Cowsay Program

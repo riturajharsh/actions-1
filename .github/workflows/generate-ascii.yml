@@ -10,10 +10,10 @@ jobs:
         - name: Checkout Repo
           uses: actions/checkout@v4
 
-        - name: List ascii Files
-          run: ls -l ascii-script.sh
+        - name: List all Files
+          run: ls -la
 
         - name: Executing shell script
           run: |
-           chmod +x riturajharsh/actions-1/.github/workflows/ascii-script.sh
-           ./ascii-script.sh
+           chmod +x ascii-script.sh
+            ./ascii-script.sh

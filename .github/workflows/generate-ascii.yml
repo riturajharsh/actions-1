@@ -10,7 +10,7 @@ jobs:
         - name: Checkout Repo
           uses: actions/checkout@v4
 
-        - name: Checkout Repo Files
+        - name: List Repo Files
           run: ls -lrta  
 
         - name: Executing shell script

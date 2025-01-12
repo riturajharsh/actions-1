@@ -15,24 +15,5 @@ jobs:
 
         - name: Executing shell script
           run: |
-           chmod +x ascii-script.sh
+           chmod +x riturajharsh/actions-1/.github/workflows/ascii-script.sh
            ./ascii-script.sh
-
-        # - name: Install Cowsay Program
-        #   run: sudo apt-get install cowsay -y  
-
-        # - name: Generate ASCII Artwork
-        #   run: cowsay -f dragon "Run for cover, I am  DRAGON....RAWR" >> dragon.txt
-
-        # - name: Test File Exists
-        #   run: grep -i "dragon" dragon.txt
-
-        # - name: Read File
-        #   run: cat dragon.txt
-
-        
-
-         
-
-
-

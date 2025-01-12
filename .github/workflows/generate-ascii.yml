@@ -16,7 +16,7 @@ jobs:
         - name: Executing shell script
           run: |
            chmod +x ascii-script.sh
-           ./ascii-script.sh 
+           ./ascii-script.sh
 
         # - name: Install Cowsay Program
         #   run: sudo apt-get install cowsay -y  
